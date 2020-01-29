@@ -3,7 +3,9 @@ package poo_v1;
 public class Parcial {
 	private char parcial[] ;
 
-	
+	public char[] getParcial() {
+		return parcial;
+	}
 	
 
 	public Parcial(int longitud) {
